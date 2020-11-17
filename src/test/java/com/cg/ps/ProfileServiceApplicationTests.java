@@ -8,12 +8,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProfileServiceApplicationTests {
+public class ProfileServiceApplicationTests {
 
 	public static Logger logger=LoggerFactory.getLogger(ProfileServiceApplicationTests.class);
 	@Test
 	void contextLoads() {
 		logger.info("Test case executing..");
+		logger.info("2nd Test case executing..");
 		assertEquals(true, true);
 	}
 
